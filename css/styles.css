@@ -1,0 +1,261 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+* {
+  font-family: "Avenir", "Hind", "Lato", sans-serif;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+.navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
+  font-family: "Avenir", "Hind", "Lato", sans-serif;
+}
+.row {
+  margin: 56px 24px; // change this to less when responsive
+}
+
+.titles {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.divider {
+  width: 94%;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+  margin: 124px auto;
+}
+
+i {
+  color: white;
+}
+
+i:hover, i:active, i:focus {
+  color: white;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+  color: #E91E63;
+  border: 2px solid #E91E63;
+  background-color: white;
+  font-size: 12px;
+  padding: 8px 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+
+}
+
+a {
+  color: #E91E63;
+}
+a:hover {
+  color: #E91E63;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #E91E63;
+  color: white;
+  border: 2px solid #E91E63;
+}
+
+.intro {
+  margin-top: 15%; // change to responsive
+}
+
+.intro h1 {
+  margin-bottom: 16px; // change all margins/fonts for responsiveness later
+  opacity: 0.8;
+
+}
+
+.intro h2 {
+  margin-bottom: 36px;
+  margin: 36px auto 56px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 5s steps(60, end);
+}
+
+#line{
+  animation: blink 1s infinite;
+}
+
+
+.icon-tech {
+  font-size: 3.5em;
+}
+
+@keyframes type{
+  from { width: 0px; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+.intro i {
+  margin: 0 16px 24px;
+}
+
+.arrows-div {
+  margin-top: 6em;
+}
+
+#arrow-icon {
+  opacity: 0.6;
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: calc(50% - 0.75em);
+  cursor: pointer;
+}
+
+@keyframes MoveUpDown {
+  0% {
+    bottom: -100px;
+  }
+  50% {
+    bottom: -50px;
+  }
+  100% {
+    bottom: -100px;
+  }
+}
+
+.project p {
+  color: rgba(0,0,0,0.5);
+  margin-top: 16px;
+}
+#about {
+  font-size: 16px;
+  margin: 0;
+  line-height: 28px;
+  padding: 88px 0;
+}
+
+#projects {
+  margin-top: 0;
+}
+.wistem {
+  padding: 0 56px;
+}
+
+header {
+  background: none;
+}
+header {
+  background-color: #e74c3c;
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
+  background-image: url("../img/imageedit_221_6066289898.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@-webkit-keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+@keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+
+@media (max-width: 767px) {
+  #name-logo {
+    color: #E91E63;
+  }
+  .intro h2 {
+    font-size: 20px;
+  }
+  header {
+    background: none;
+  }
+  .wistem {
+    padding: 0;
+  }
+  .divider {
+    margin: 24px auto;
+  }
+  .row {
+    margin: 32px 8px;
+  }
+}
+
+
+@media (max-width: 995px) {
+  .intro {
+    margin-top: 30%;
+  }
+  .intro h2 {
+    animation: none;
+    width: auto;
+  }
+  .arrows-div {
+    display: none;
+  }
+
+  .row {
+    margin: 32px 16px;
+  }
+}
+@media (min-width: 767px) {
+  .project {
+    padding: 0 20px;
+  }
+}
+
+.navbar-default.affix .nav>li>a:hover,
+.navbar-default.affix .nav>li>a:active,
+.navbar-default.affix .nav>li>a:focus{
+  color: #E91E63;
+}
+
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
+  color: #E91E63!important;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+footer > div > p {
+  font-size: 14px;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover {
+  color: #E91E63;
+}
+
+i.non-link-icons {
+  padding: 0;
+  color: #9E9E9E;
+}
+
+i.non-link-icons:hover,
+i.non-link-icons:active,
+i.non-link-icons:focus {
+  color: #9E9E9E;
+  cursor: default;
+}
