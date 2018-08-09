@@ -71,7 +71,11 @@ a:hover {
 }
 
 .intro {
-  margin-top: 15%; // change to responsive
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro h1 {
@@ -180,6 +184,11 @@ header {
 }
 
 @media (max-width: 767px) {
+  .intro {
+    margin-top: 30%;
+    position: inherit;
+    transform: inherit;
+  }
   #name-logo {
     color: #E91E63;
   }
@@ -202,9 +211,6 @@ header {
 
 
 @media (max-width: 995px) {
-  .intro {
-    margin-top: 30%;
-  }
   .intro h2 {
     animation: none;
     width: auto;
