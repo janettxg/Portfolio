@@ -79,7 +79,7 @@ a:hover {
 }
 
 .intro h1 {
-  margin-bottom: 16px; // change all margins/fonts for responsiveness later
+  margin-bottom: 16px; //change all margins/fonts for responsiveness later
   opacity: 0.8;
 
 }
@@ -198,7 +198,7 @@ header {
     color: #E91E63;
   }
   .intro h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
   header {
     background: none;
