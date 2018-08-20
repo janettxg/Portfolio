@@ -113,8 +113,12 @@ a:hover {
   margin: 0 16px 24px;
 }
 
+.github-icon {
+  margin-right: 25px;
+}
+
 .arrows-div {
-  margin-top: 6em;
+  margin-top: 20px;
 }
 
 #arrow-icon {
@@ -123,6 +127,7 @@ a:hover {
   position: absolute;
   left: calc(50% - 0.75em);
   cursor: pointer;
+  margin-bottom: -60px;
 }
 
 @keyframes MoveUpDown {
