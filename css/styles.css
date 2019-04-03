@@ -45,8 +45,8 @@ i:hover, i:active, i:focus {
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
-  color: #E91E63;
-  border: 2px solid #E91E63;
+  color: rgb(32, 178, 223);
+  border: 2px solid rgb(32, 178, 223);
   background-color: white;
   font-size: 12px;
   padding: 8px 16px;
@@ -56,18 +56,18 @@ i:hover, i:active, i:focus {
 }
 
 a {
-  color: #E91E63;
+  color: rgb(32, 178, 223);
 }
 a:hover {
-  color: #E91E63;
+  color:  rgb(32, 178, 223);
   opacity: 0.6;
   text-decoration: none;
 }
 
 .btn-primary:hover {
-  background-color: #E91E63;
+  background-color:  rgb(32, 178, 223);
   color: white;
-  border: 2px solid #E91E63;
+  border: 2px solid  rgb(32, 178, 223);
 }
 
 .intro {
@@ -143,7 +143,7 @@ a:hover {
 }
 
 .project p {
-  color: rgba(0,0,0,0.5);
+  color: black;
   margin-top: 16px;
 }
 #about {
@@ -195,7 +195,7 @@ header {
     transform: inherit;
   }
   #name-logo {
-    color: #E91E63;
+    color:  rgb(32, 178, 223);
   }
   .intro h2 {
     font-size: 10px;
@@ -237,12 +237,12 @@ header {
 .navbar-default.affix .nav>li>a:hover,
 .navbar-default.affix .nav>li>a:active,
 .navbar-default.affix .nav>li>a:focus{
-  color: #E91E63;
+  color: rgb(32, 178, 223);
 }
 
 .navbar-default .nav>li.active>a,
 .navbar-default .nav>li.active>a:focus {
-  color: #E91E63!important;
+  color:  rgb(32, 178, 223)!important;
 }
 
 footer {
@@ -256,7 +256,7 @@ footer > div > p {
 }
 
 .navbar-default.affix .navbar-header .navbar-brand:hover {
-  color: #E91E63;
+  color:  rgb(32, 178, 223);
 }
 
 i.non-link-icons {
